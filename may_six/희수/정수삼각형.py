@@ -4,9 +4,6 @@ dp = []
 for i in range(n):
     dp.append(list(map(int,input().split())))
 
-print(dp)
-print(dp[1][0])
-
 for i in range(1, n):
     for j in range(0, i + 1):
         if j == 0:
